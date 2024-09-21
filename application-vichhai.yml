@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: department-service
+  datasource:
+    url: jdbc:postgresql://localhost:5200/mini_project
+    username: postgres
+    password: 2003
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8081
